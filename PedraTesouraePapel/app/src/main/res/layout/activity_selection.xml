@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context=".view.SelectionActivity">
+    <Button
+        android:id="@+id/button_rock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rock"
+        app:layout_constraintBottom_toTopOf="@+id/button_scissors"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview_message" />
+    <Button
+        android:id="@+id/button_scissors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scissors"
+        app:layout_constraintBottom_toTopOf="@+id/button_paper"
+        app:layout_constraintEnd_toEndOf="@+id/button_rock"
+        app:layout_constraintStart_toStartOf="@+id/button_rock"
+        app:layout_constraintTop_toBottomOf="@+id/button_rock" />
+    <Button
+        android:id="@+id/button_paper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/paper"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button_rock"
+        app:layout_constraintStart_toStartOf="@+id/button_rock"
+        app:layout_constraintTop_toBottomOf="@+id/button_scissors" />
+    <TextView
+        android:id="@+id/textview_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

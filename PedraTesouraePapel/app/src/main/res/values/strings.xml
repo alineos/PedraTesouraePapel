@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Jukenpo</string>
+    <string name="gum_selection">\nSeleção de Arma.</string>
+    <string name="winner">"Vencedor da batalha: "</string>
+    <string name="draw">Empate, rodada desconsiderada.</string>
+    <string name="won_the_march">" venceu o confronto."</string>
+    <string name="choose_gum">" deve escolher uma arma."</string>
+    <string name="chhose_gum_player">, selecione qual a arma que
+utilizará no confronto:</string>
+    <string name="rock">Pedra</string>
+    <string name="scissors">Tesoura</string>
+    <string name="paper">Papel</string>
+    <string name="fight">LUTAR</string>
+    <string name="close">Fechar</string>
+    <string name="scoreboard">Placar</string>
+    <string name="name_of_player">Nome do competidor</string>
+    <string name="kind_of_game">Tipo de jogo</string>
+    <string name="start_game">Iniciar Jogo</string>
+    <string name="number_player">Numero de jogadores</string>
+</resources>

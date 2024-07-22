@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipos_jogos">
+        <item>Confronto único</item>
+        <item>Melhor de 3</item>
+        <item>Melhor de 5</item>
+    </string-array>
+
+    <string-array name="jogadores">
+        <item>1 Jogador</item>
+        <item>2 Jogadores</item>
+    </string-array>
+</resources>
